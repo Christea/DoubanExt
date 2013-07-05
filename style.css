@@ -1,0 +1,66 @@
+body {
+padding-top: 10px;
+}
+
+.logo{
+	margin-left:auto;
+	margin-right:auto;
+	width:150px;
+	padding-bottom: 10px;
+}
+
+.srh {
+position: relative;
+display: inline-block;
+vertical-align: middle;
+width: 250px;
+height: 30px;
+background-color: #f7f7f8;
+padding: 7px;
+}
+
+.srh .inp {
+height: 30px;
+cursor: text;
+border: 1px solid #dcdcdc;
+background-color: #fff;
+}
+
+.srh fieldset {
+border: 0;
+padding: 0;
+margin: 0;
+}
+
+.srh .inp input {
+width: 220px;
+border: 0;
+font-size: 13px;
+height: 20px;
+padding: 5px;
+outline: none;
+}
+
+.srh .inp-btn {
+position: absolute;
+right: 6px;
+top: 6px;
+width: 30px;
+height: 30px;
+overflow: hidden;
+cursor: pointer;
+background: url(bn_srh_1.png) 50% 50% no-repeat;
+}
+
+.srh .inp-btn button {
+border: 0;
+background: transparent;
+overflow: hidden;
+width: 30px;
+height: 30px;
+font-size: 0;
+color: transparent;
+cursor: pointer;
+}
+
+
